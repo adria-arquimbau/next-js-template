@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Template Next.js!</a>
         </h1>
         <nav>
-          <a href="/timeline">Timeline</a>
+          <Link href="/timeline">Timeline</Link>
         </nav>
        </main>
 
