@@ -32,7 +32,7 @@ Timeline.getInitialProps = () => {
         .then(res => res.json())
         .then(response => {
             console.log(response)
-            const {userName} = response
-            return {userName}
+            const {name} = response
+            return {userName: name}
         })
 }
