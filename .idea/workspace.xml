@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f387d1-4acf-46f0-bad5-8725fdd90088" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/AppLayout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AppLayout/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Devit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/statuses/home_timeline/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/timeline/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/timeline/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/theme.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +47,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentProjects\next-template\components" />
+    </key>
+  </component>
   <component name="RunManager" selected="JavaScript Debug.Unnamed">
     <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="3000" isV8Legacy="true">
       <option name="v8Legacy" value="true" />
@@ -60,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609171503151</updated>
       <workItem from="1609171505244" duration="20662000" />
-      <workItem from="1609238604371" duration="5508000" />
+      <workItem from="1609238604371" duration="10173000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added timeline">
       <created>1609171649826</created>
@@ -153,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609242228217</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix: login bug">
+      <created>1609244337488</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609244337488</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +202,8 @@
     <MESSAGE value="add eslint" />
     <MESSAGE value="refact: eslint fix" />
     <MESSAGE value="refact: avatar component" />
-    <option name="LAST_COMMIT_MESSAGE" value="refact: avatar component" />
+    <MESSAGE value="fix: login bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: login bug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
