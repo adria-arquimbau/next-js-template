@@ -1,11 +1,9 @@
 import Link from 'next/link'
-import styles from "../../styles/Home.module.css"
-import Head from "next/head"
+import styles from '../../styles/Home.module.css'
+import Head from 'next/head'
 
-
-export default function Timeline({ userName }){
-
-    return (
+export default function Timeline ({ userName }) {
+  return (
         <>
             <Head>
                 <title>🔥 My Timeline</title>
@@ -25,15 +23,15 @@ export default function Timeline({ userName }){
               }
             `}</style>
         </>
-    )
+  )
 }
 
 Timeline.getInitialProps = () => {
-    return fetch('http://localhost:3000/api/hello')
-        .then(res => res.json())
-        .then(response => {
-            console.log(response)
-            const {name} = response
-            return {userName: name}
-        })
+  return fetch('http://localhost:3000/api/hello')
+    .then(res => res.json())
+    .then(response => {
+      console.log(response)
+      const { name } = response
+      return { userName: name }
+    })
 }

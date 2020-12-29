@@ -1,26 +1,25 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Button from "../components/Button";
-import {loginWithGithub, onAuthStateChange} from "../firebase/client";
-import {useState, useEffect} from 'react';
+import Button from '../components/Button'
+import { loginWithGithub, onAuthStateChange } from '../firebase/client'
+import { useState, useEffect } from 'react'
 
-export default function Home() {
+export default function Home () {
+  const [user, setUser] = useState(undefined)
 
-    const [user, setUser] = useState(undefined)
+  useEffect(() => {
+    onAuthStateChange(user => setUser(user))
+  }, [])
 
-    useEffect(() => {
-        onAuthStateChange(user => setUser(user))
-    }, [])
+  const handleClick = () => {
+    loginWithGithub()
+      .then(setUser)
+      .catch(err => {
+        console.log(err)
+      })
+  }
 
-    const handleClick = () => {
-        loginWithGithub()
-            .then(setUser)
-            .catch(err => {
-            console.log(err)
-        })
-    }
-
-    return (
+  return (
         <>
             <div className={styles.container}>
                 <Head>
@@ -70,5 +69,5 @@ export default function Home() {
               }
             `}</style>
         </>
-    )
+  )
 }

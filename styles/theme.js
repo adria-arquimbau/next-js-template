@@ -1,8 +1,8 @@
 export const fonts = {
-    base: 'Roboto'
+  base: 'Roboto'
 }
 
 export const colors = {
-    primary: '#0099ff',
-    secondary: '#1c5480'
+  primary: '#0099ff',
+  secondary: '#1c5480'
 }

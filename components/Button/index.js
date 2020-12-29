@@ -1,7 +1,7 @@
-import {colors} from "../../styles/theme"
+import { colors } from '../../styles/theme'
 
-export  default function Button({ children, onClick }) {
-    return(
+export default function Button ({ children, onClick }) {
+  return (
         <>
             <button onClick={onClick}>
                 {children}
@@ -12,5 +12,5 @@ export  default function Button({ children, onClick }) {
                     }
               `}</style>
             </>
-    )
+  )
 }
