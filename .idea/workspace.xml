@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f387d1-4acf-46f0-bad5-8725fdd90088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/avatar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
@@ -42,7 +38,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.Unnamed">
@@ -67,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609171503151</updated>
       <workItem from="1609171505244" duration="20662000" />
+      <workItem from="1609238604371" duration="1398000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added timeline">
       <created>1609171649826</created>
@@ -147,6 +144,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: added timeline" />

@@ -45,8 +45,21 @@ export default function Home() {
                                 <strong>{user.username}</strong>
                             </div>
                         }
+                    </div>
 
-
+                    <div>
+                        {
+                            user === null &&
+                            <Button onClick={handleClick}>
+                                Login with GitHub
+                            </Button>
+                        }
+                        {
+                            user && user.avatar && <div>
+                                <img src={user.avatar}/>
+                                <strong>{user.username}</strong>
+                            </div>
+                        }
                     </div>
                 </main>
             </div>
