@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Button from '../components/Button'
+import Button from '../components/button'
 import { loginWithGithub, onAuthStateChange } from '../firebase/client'
 import { useState, useEffect } from 'react'
+import Avatar from "../components/avatar";
 
 export default function Home () {
   const [user, setUser] = useState(undefined)
@@ -40,23 +41,11 @@ export default function Home () {
                         }
                         {
                             user && user.avatar && <div>
-                                <img src={user.avatar}/>
-                                <strong>{user.username}</strong>
-                            </div>
-                        }
-                    </div>
-
-                    <div>
-                        {
-                            user === null &&
-                            <Button onClick={handleClick}>
-                                Login with GitHub
-                            </Button>
-                        }
-                        {
-                            user && user.avatar && <div>
-                                <img src={user.avatar}/>
-                                <strong>{user.username}</strong>
+                                <Avatar
+                                    alt={user.username}
+                                    src={user.avatar}
+                                    text={user.username}
+                                />
                             </div>
                         }
                     </div>
