@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f387d1-4acf-46f0-bad5-8725fdd90088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/AppLayout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AppLayout/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Devit/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/statuses/home_timeline/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/avatar/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/compose/tweet/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/timeline/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/timeline/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AppLayout/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppLayout/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/avatar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/avatar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/statuses/home_timeline/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/statuses/home_timeline/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1609171503151</updated>
       <workItem from="1609171505244" duration="20662000" />
-      <workItem from="1609238604371" duration="10173000" />
+      <workItem from="1609238604371" duration="18588000" />
+      <workItem from="1609272980287" duration="7798000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added timeline">
       <created>1609171649826</created>
@@ -174,7 +177,77 @@
       <option name="project" value="LOCAL" />
       <updated>1609244337488</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix: timeline fetch">
+      <created>1609254626832</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254626832</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix: timeline fetch">
+      <created>1609254631693</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254631693</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix: timeline fetch">
+      <created>1609254635505</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254635505</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix: timeline fetch">
+      <created>1609254640247</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254640247</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix: timeline fetch">
+      <created>1609254643971</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254643971</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix: timeline fetch">
+      <created>1609254648972</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254648972</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix: timeline fetch">
+      <created>1609254652280</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254652280</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix: timeline fetch">
+      <created>1609254655382</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254655382</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix: timeline fetch">
+      <created>1609254658389</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254658389</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix: timeline fetch">
+      <created>1609254661577</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609254661577</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +276,8 @@
     <MESSAGE value="refact: eslint fix" />
     <MESSAGE value="refact: avatar component" />
     <MESSAGE value="fix: login bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: login bug" />
+    <MESSAGE value="fix: timeline fetch" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: timeline fetch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
