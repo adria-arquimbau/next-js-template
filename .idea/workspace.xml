@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f387d1-4acf-46f0-bad5-8725fdd90088" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Footer/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/ArrowLeft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/GitHub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Like.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Reuse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useTimeAgo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AppLayout/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppLayout/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Devit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Devit/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firebase/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/compose/tweet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/compose/tweet/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mIC1Da6XioPkcAhPmjDYuout4l" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,6 +85,8 @@
       <workItem from="1609171505244" duration="20662000" />
       <workItem from="1609238604371" duration="18588000" />
       <workItem from="1609272980287" duration="14484000" />
+      <workItem from="1609336250947" duration="5502000" />
+      <workItem from="1609404792574" duration="11530000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added timeline">
       <created>1609171649826</created>
@@ -324,7 +340,42 @@
       <option name="project" value="LOCAL" />
       <updated>1609329648083</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="feat: component timeline">
+      <created>1609336279622</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1609336279622</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: component timeline">
+      <created>1609336284973</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1609336284973</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: component timeline">
+      <created>1609336289751</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1609336289751</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat: component timeline">
+      <created>1609336294293</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1609336294293</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat: component timeline">
+      <created>1609336297781</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1609336297781</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +406,8 @@
     <MESSAGE value="fix: login bug" />
     <MESSAGE value="fix: timeline fetch" />
     <MESSAGE value="feat: firebase database" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: firebase database" />
+    <MESSAGE value="feat: component timeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: component timeline" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
