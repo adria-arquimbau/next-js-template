@@ -25,25 +25,6 @@ export default function Footer(){
                 </Link>
             </nav>
             <style jsx>{`
-        header {
-          align-items: center;
-          background: #ffffffaa;
-          backdrop-filter: blur(5px);
-          border-bottom: 1px solid #eee;
-          height: 49px;
-          display: flex;
-          position: sticky;
-          top: 0;
-          width: 100%;
-        }
-        section {
-          flex: 1;
-        }
-        h2 {
-          font-size: 21px;
-          font-weight: 800;
-          padding-left: 15px;
-        }
         nav {
           background: #fff;
           bottom: 0;

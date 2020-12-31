@@ -101,9 +101,11 @@ export default function ComposeTweet() {
                     <link rel="icon" href="/favicon.ico"/>
                 </Head>
                 <section className="form-container">
-                    <section className="avatar-container">
-                       {/* <Avatar src={user.avatar} />*/}
-                    </section>
+                    {user && (
+                        <section className="avatar-container">
+                            <Avatar src={user.avatar} />
+                        </section>
+                    )}
                 <form onSubmit={handleSubmit}>
                     <textarea
                         onDragEnter={handleDragEnter}
@@ -120,12 +122,14 @@ export default function ComposeTweet() {
                     </div>
                 </form>
                 </section>
-                <Footer></Footer>
+                <Footer>
+
+                </Footer>
             </AppLayout>
         <style jsx>{`
           div {
             padding: 15px;
-          }
+          } 
           .avatar-container {
             padding-top: 20px;
             padding-left: 10px;
