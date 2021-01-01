@@ -1,101 +1,98 @@
-import Button from "../../../components/button";
-import AppLayout from "../../../components/AppLayout";
-import useUser from "../../../hooks/useUser";
-import {useState, useEffect} from "react";
-import {addDevit, uploadImage} from '../../../firebase/client'
-import {useRouter} from "next/router";
-import Avatar from "../../../components/avatar";
-import Head from "next/head";
-import Footer from "../../../components/Footer/footer";
+import Button from '../../../components/button'
+import useUser from '../../../hooks/useUser'
+import { useState, useEffect } from 'react'
+import { addDevit, uploadImage } from '../../../firebase/client'
+import { useRouter } from 'next/router'
+import Avatar from '../../../components/avatar'
+import Head from 'next/head'
+import Footer from '../../../components/Footer/footer'
 
 const COMPOSE_STATES = {
-    USER_NOT_KNOW: 0,
-    LOADING: 1,
-    SUCCESS: 2,
-    ERROR: -1,
+  USER_NOT_KNOW: 0,
+  LOADING: 1,
+  SUCCESS: 2,
+  ERROR: -1
 }
 
 const DRAG_IMAGE_STATES = {
-    ERROR: -1,
-    NONE: 0,
-    DRAG_OVER: 1,
-    UPLOADING: 2,
-    COMPLETE: 3
+  ERROR: -1,
+  NONE: 0,
+  DRAG_OVER: 1,
+  UPLOADING: 2,
+  COMPLETE: 3
 }
 
-export default function ComposeTweet() {
+export default function ComposeTweet () {
+  const [message, setMessage] = useState('')
+  const [status, setStatus] = useState(COMPOSE_STATES.USER_NOT_KNOW)
 
-    const [message, setMessage] = useState("")
-    const [status, setStatus] = useState(COMPOSE_STATES.USER_NOT_KNOW)
+  const [drag, setDrag] = useState(DRAG_IMAGE_STATES.NONE)
+  const [task, setTask] = useState(null)
+  const [imgURL, setImgURL] = useState(null)
 
-    const [drag, setDrag] = useState(DRAG_IMAGE_STATES.NONE)
-    const [task, setTask] = useState(null)
-    const [imgURL, setImgURL] = useState(null)
+  const router = useRouter()
+  const user = useUser()
 
-    const router = useRouter()
-    const user = useUser()
+  useEffect(() => {
+    if (task) {
+      const onProgress = () => {}
+      const onError = () => {}
+      const onComplete = () => {
+        console.log('onComplete')
+        task.snapshot.ref.getDownloadURL().then(setImgURL)
+      }
 
-    useEffect(() => {
-        if(task) {
-            let onProgress = () => {}
-            let onError = () => {}
-            let onComplete = () => {
-                console.log('onComplete')
-                task.snapshot.ref.getDownloadURL().then(setImgURL)
-            }
-
-            task.on('state_changed',
-                onProgress,
-                onError,
-                onComplete
-            )
-        }
-    }, [task])
-
-    const handleChange = (event)=> {
-        const {value} = event.target
-        setMessage(value)
+      task.on('state_changed',
+        onProgress,
+        onError,
+        onComplete
+      )
     }
+  }, [task])
 
-    const handleSubmit = (event)=> {
-        event.preventDefault()
-        setStatus(COMPOSE_STATES.LOADING)
-        addDevit({
-            avatar: user.avatar,
-            content: message,
-            userId: user.uid,
-            userName: user.userName,
-            img: imgURL
-        }).then(() => {
-            router.push("/home")
-        }).catch((err) => {
-            console.log(err)
-            setStatus(COMPOSE_STATES.ERROR)
-        })
-    }
+  const handleChange = (event) => {
+    const { value } = event.target
+    setMessage(value)
+  }
 
-    const handleDragEnter = (event) =>{
-        event.preventDefault()
-        setDrag(DRAG_IMAGE_STATES.DRAG_OVER)
-    }
-    const handleDragLeave = (event) =>{
-        event.preventDefault()
-        setDrag(DRAG_IMAGE_STATES.NONE)
-    }
-    const handleDrop = (event) =>{
-        event.preventDefault()
-        setDrag(DRAG_IMAGE_STATES.NONE)
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    setStatus(COMPOSE_STATES.LOADING)
+    addDevit({
+      avatar: user.avatar,
+      content: message,
+      userId: user.uid,
+      userName: user.userName,
+      img: imgURL
+    }).then(() => {
+      router.push('/home')
+    }).catch((err) => {
+      console.log(err)
+      setStatus(COMPOSE_STATES.ERROR)
+    })
+  }
 
-        const file = event.dataTransfer.files[0]
-        const task = uploadImage(file)
+  const handleDragEnter = (event) => {
+    event.preventDefault()
+    setDrag(DRAG_IMAGE_STATES.DRAG_OVER)
+  }
+  const handleDragLeave = (event) => {
+    event.preventDefault()
+    setDrag(DRAG_IMAGE_STATES.NONE)
+  }
+  const handleDrop = (event) => {
+    event.preventDefault()
+    setDrag(DRAG_IMAGE_STATES.NONE)
 
-        setTask(task)
-    }
+    const file = event.dataTransfer.files[0]
+    const task = uploadImage(file)
 
-    const isButtonDisabled = !message.length || status === COMPOSE_STATES.LOADING
+    setTask(task)
+  }
 
-    return (<>
-            <AppLayout>
+  const isButtonDisabled = !message.length || status === COMPOSE_STATES.LOADING
+
+  return (<>
                 <Head>
                     <title>Crear un tweet 🔥</title>
                     <link rel="icon" href="/favicon.ico"/>
@@ -125,7 +122,6 @@ export default function ComposeTweet() {
                 <Footer>
 
                 </Footer>
-            </AppLayout>
         <style jsx>{`
           div {
             padding: 15px;
@@ -163,8 +159,8 @@ export default function ComposeTweet() {
           }
           textarea {
             border: ${drag === DRAG_IMAGE_STATES.DRAG_OVER
-                    ? "3px dashed #09f"
-                    : "3px solid transparent"};
+                    ? '3px dashed #09f'
+                    : '3px solid transparent'};
             border-radius: 10px;
             font-size: 21px;
             min-height: 200px;
