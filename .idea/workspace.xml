@@ -5,38 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f387d1-4acf-46f0-bad5-8725fdd90088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/firebase/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase/template-next-js-firebase-adminsdk-yyx5g-5cab6bb3a8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useDateTimeFormat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/status/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AppLayout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppLayout/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AppLayout/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppLayout/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Devit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Devit/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/ArrowLeft.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/ArrowLeft.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/Create.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Create.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/GitHub.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/GitHub.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/Like.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Like.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/Reuse.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Reuse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/avatar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Avatar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/avatar/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Avatar/styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/timeline/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useTimeAgo.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useTimeAgo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/statuses/home_timeline/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/statuses/home_timeline/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/compose/tweet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/compose/tweet/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useDateTimeFormat.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useDateTimeFormat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/status/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/status/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,63 +80,7 @@
       <workItem from="1609272980287" duration="14484000" />
       <workItem from="1609336250947" duration="5502000" />
       <workItem from="1609404792574" duration="16789000" />
-      <workItem from="1609504511394" duration="2348000" />
-    </task>
-    <task id="LOCAL-00011" summary="add eslint">
-      <created>1609240183184</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1609240183184</updated>
-    </task>
-    <task id="LOCAL-00012" summary="refact: eslint fix">
-      <created>1609240659429</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1609240659429</updated>
-    </task>
-    <task id="LOCAL-00013" summary="refact: avatar component">
-      <created>1609242228217</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1609242228217</updated>
-    </task>
-    <task id="LOCAL-00014" summary="fix: login bug">
-      <created>1609244337488</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1609244337488</updated>
-    </task>
-    <task id="LOCAL-00015" summary="fix: timeline fetch">
-      <created>1609254626832</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1609254626832</updated>
-    </task>
-    <task id="LOCAL-00016" summary="fix: timeline fetch">
-      <created>1609254631693</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1609254631693</updated>
-    </task>
-    <task id="LOCAL-00017" summary="fix: timeline fetch">
-      <created>1609254635505</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1609254635505</updated>
-    </task>
-    <task id="LOCAL-00018" summary="fix: timeline fetch">
-      <created>1609254640247</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1609254640247</updated>
+      <workItem from="1609504511394" duration="8773000" />
     </task>
     <task id="LOCAL-00019" summary="fix: timeline fetch">
       <created>1609254643971</created>
@@ -453,7 +369,63 @@
       <option name="project" value="LOCAL" />
       <updated>1609506667745</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="feat: firebaseAdmin">
+      <created>1609506914036</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1609506914037</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat: firebaseAdmin">
+      <created>1609506926829</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1609506926829</updated>
+    </task>
+    <task id="LOCAL-00062" summary="feat: firebaseAdmin">
+      <created>1609506931059</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1609506931059</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat: firebaseAdmin">
+      <created>1609506934232</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1609506934232</updated>
+    </task>
+    <task id="LOCAL-00064" summary="feat: firebaseAdmin">
+      <created>1609506937472</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1609506937472</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat: firebaseAdmin">
+      <created>1609506942058</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1609506942059</updated>
+    </task>
+    <task id="LOCAL-00066" summary="feat: firebaseAdmin">
+      <created>1609506945310</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1609506945310</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat: firebaseAdmin">
+      <created>1609506955575</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1609506955575</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
