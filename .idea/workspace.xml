@@ -5,9 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f387d1-4acf-46f0-bad5-8725fdd90088" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/firebase/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase/template-next-js-firebase-adminsdk-yyx5g-5cab6bb3a8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useDateTimeFormat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/status/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AppLayout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppLayout/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AppLayout/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppLayout/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Devit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Devit/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons/ArrowLeft.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/ArrowLeft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons/Create.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons/GitHub.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/GitHub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons/Like.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Like.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons/Reuse.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Reuse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/avatar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Avatar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/avatar/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Avatar/styles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/timeline/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useTimeAgo.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useTimeAgo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/statuses/home_timeline/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/statuses/home_timeline/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/compose/tweet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/compose/tweet/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/firebase" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -44,7 +74,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentProjects\next-template\firebase" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentProjects\next-template\pages\status" />
       <recent name="D:\DevelopmentProjects\next-template\components" />
     </key>
   </component>
@@ -73,21 +107,8 @@
       <workItem from="1609238604371" duration="18588000" />
       <workItem from="1609272980287" duration="14484000" />
       <workItem from="1609336250947" duration="5502000" />
-      <workItem from="1609404792574" duration="12270000" />
-    </task>
-    <task id="LOCAL-00009" summary="feat: api fetch">
-      <created>1609186122621</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1609186122621</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add eslint">
-      <created>1609240174082</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1609240174082</updated>
+      <workItem from="1609404792574" duration="16789000" />
+      <workItem from="1609504511394" duration="2348000" />
     </task>
     <task id="LOCAL-00011" summary="add eslint">
       <created>1609240183184</created>
@@ -418,7 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609440946060</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="fix: user hooks bug">
+      <created>1609441571146</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1609441571146</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat: firebaseAdmin">
+      <created>1609506667744</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1609506667745</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +486,9 @@
     <MESSAGE value="feat: firebase database" />
     <MESSAGE value="feat: component timeline" />
     <MESSAGE value="feat: do a message" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: do a message" />
+    <MESSAGE value="fix: user hooks bug" />
+    <MESSAGE value="feat: firebaseAdmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: firebaseAdmin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

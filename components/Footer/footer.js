@@ -1,11 +1,11 @@
-import Link from "next/link";
-import Home from "../Icons/Home";
-import Search from "../Icons/Search";
-import Create from "../Icons/Create";
-import {colors} from "../../styles/theme";
+import Link from 'next/link'
+import Home from '../Icons/Home'
+import Search from '../Icons/Search'
+import Create from '../Icons/Create'
+import { colors } from '../../styles/theme'
 
-export default function Footer(){
-    return (
+export default function Footer () {
+  return (
         <>
             <nav>
                 <Link href="/home">
@@ -52,5 +52,5 @@ export default function Footer(){
       `}</style>
         </>
 
-    )
+  )
 }

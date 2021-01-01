@@ -1,7 +1,7 @@
-import * as React from "react"
+import * as React from 'react'
 
-export default function Reuse(props) {
-    return (
+export default function Reuse (props) {
+  return (
         <svg height={21} viewBox="0 0 21 21" width={21} {...props}>
             <g
                 fill="none"
@@ -17,5 +17,5 @@ export default function Reuse(props) {
                 </g>
             </g>
         </svg>
-    )
+  )
 }

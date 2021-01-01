@@ -3,18 +3,17 @@ import styles from '../styles/Home.module.css'
 import Button from '../components/button'
 import { loginWithGithub } from '../firebase/client'
 import { useEffect } from 'react'
-import {useRouter} from 'next/router'
-import useUser, { USER_STATES } from "../hooks/useUser";
-import {colors} from "../styles/theme";
+import { useRouter } from 'next/router'
+import useUser, { USER_STATES } from '../hooks/useUser'
+import { colors } from '../styles/theme'
 
-export default function Home() {
+export default function Home () {
+  const user = useUser()
+  const router = useRouter()
 
-    const user = useUser()
-    const router = useRouter()
-
-    useEffect(()=> {
-        user && router.replace('/home')
-    },[user])
+  useEffect(() => {
+    user && router.replace('/home')
+  }, [user])
 
   const handleClick = () => {
     loginWithGithub()

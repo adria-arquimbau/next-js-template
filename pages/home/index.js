@@ -1,28 +1,21 @@
-import AppLayout from "../../components/AppLayout";
-import {useEffect, useState} from 'react'
-import Devit from "../../components/Devit";
-import useUser from "../../hooks/useUser";
-import {fetchLatestDevits} from "../../firebase/client";
-import Create from "../../components/Icons/Create";
-import Link from 'next/link';
-import {colors} from "../../styles/theme";
-import Home from "../../components/Icons/Home";
-import Search from "../../components/Icons/Search";
-import Head from "next/head";
-import Footer from "../../components/Footer/footer";
+import { useEffect, useState } from 'react'
+import Devit from '../../components/Devit'
+import useUser from '../../hooks/useUser'
+import { fetchLatestDevits } from '../../firebase/client'
+import { colors } from '../../styles/theme'
+import Head from 'next/head'
+import Footer from '../../components/Footer/footer'
 
-export default function HomePage(){
+export default function HomePage () {
+  const [timeline, setTimeline] = useState([])
+  const user = useUser()
 
-    const [timeline, setTimeline] = useState([])
-    const user = useUser()
+  useEffect(() => {
+    user && fetchLatestDevits().then(setTimeline)
+  }, [user])
 
-    useEffect(() => {
-        user && fetchLatestDevits().then(setTimeline)
-    }, [user])
-
-    return(
+  return (
         <>
-            <AppLayout>
                 <Head>
                     <title>Inicio / App</title>
                 </Head>
@@ -46,7 +39,6 @@ export default function HomePage(){
                     </section>
                     <Footer></Footer>
                 </section>
-            </AppLayout>
 
             <style jsx>{`
         header {
@@ -94,5 +86,5 @@ export default function HomePage(){
         }
       `}</style>
     </>
-    )
+  )
 }
