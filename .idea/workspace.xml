@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f387d1-4acf-46f0-bad5-8725fdd90088" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Devit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Devit/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hooks/useDateTimeFormat.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useDateTimeFormat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/status/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/status/[id].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useTimeAgo.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useTimeAgo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,35 +82,7 @@
       <workItem from="1609272980287" duration="14484000" />
       <workItem from="1609336250947" duration="5502000" />
       <workItem from="1609404792574" duration="16789000" />
-      <workItem from="1609504511394" duration="8773000" />
-    </task>
-    <task id="LOCAL-00019" summary="fix: timeline fetch">
-      <created>1609254643971</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1609254643971</updated>
-    </task>
-    <task id="LOCAL-00020" summary="fix: timeline fetch">
-      <created>1609254648972</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1609254648972</updated>
-    </task>
-    <task id="LOCAL-00021" summary="fix: timeline fetch">
-      <created>1609254652280</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1609254652280</updated>
-    </task>
-    <task id="LOCAL-00022" summary="fix: timeline fetch">
-      <created>1609254655382</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1609254655382</updated>
+      <workItem from="1609504511394" duration="19232000" />
     </task>
     <task id="LOCAL-00023" summary="fix: timeline fetch">
       <created>1609254658389</created>
@@ -425,7 +399,35 @@
       <option name="project" value="LOCAL" />
       <updated>1609506955575</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="feat: getStaticProps">
+      <created>1609525453099</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1609525453099</updated>
+    </task>
+    <task id="LOCAL-00069" summary="feat: getStaticProps">
+      <created>1609525458981</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1609525458981</updated>
+    </task>
+    <task id="LOCAL-00070" summary="feat: getStaticProps">
+      <created>1609525465623</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1609525465623</updated>
+    </task>
+    <task id="LOCAL-00071" summary="feat: getStaticProps">
+      <created>1609525469917</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1609525469917</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +462,8 @@
     <MESSAGE value="feat: do a message" />
     <MESSAGE value="fix: user hooks bug" />
     <MESSAGE value="feat: firebaseAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: firebaseAdmin" />
+    <MESSAGE value="feat: getStaticProps" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: getStaticProps" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
