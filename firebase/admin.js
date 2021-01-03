@@ -6,7 +6,7 @@ const serviceAccount = require("./template-next-js-firebase-adminsdk-yyx5g-5cab6
 try {
     admin.initializeApp({
         credential: admin.credential.cert(serviceAccount),
-        databaseURL: "https://devter-6661a.firebaseio.com",
+        databaseURL: process.env.FIREBASE_DATABASE_URL,
     })
 } catch (e) {}
 
